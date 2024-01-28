@@ -1,6 +1,6 @@
 import MobileNavBar from "./MobileNavBar";
 import NavLink from "./NavLink";
-import { flightPrograms, resources, about } from "../consts.astro";
+import { flightPrograms, resources, about } from "../consts";
 import { useState } from "react";
 
 const Navbar = ({ pathname }) => {
