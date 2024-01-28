@@ -28,7 +28,7 @@ const Navbar = ({ pathname }) => {
             <div className="flex flex-1 items-center justify-between">
               <a href="/" className="flex flex-shrink-0 items-center">
                 <img
-                  src="/red-arrow-logo.webp"
+                  src="/src/assets/red-arrow-logo.webp"
                   alt="Red Arrow Logo"
                   className="h-14 lg:h-20 w-auto"
                 />

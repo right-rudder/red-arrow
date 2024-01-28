@@ -7,12 +7,14 @@ export default {
         "main-red": "#993333",
       },
       backgroundImage: {
-        home: "url('/img/cessna-pilot-center-el-paso-tx.webp')",
-        "home-mobile": "url('/img/cessna-pilot-center-el-paso-tx-mobile.webp')",
-        "two-cessna": "url('/img/two-cessna-red-arrow-KDNA-santa-teresa.webp')",
-        "training-courses": "url('/img/training-courses-banner.webp')",
-        "our-story": "url('/img/our-story/banner.webp')",
-        "our-team": "url('./src/img/our-team/banner.webp')",
+        home: "url('../assets/cessna-pilot-center-el-paso-tx.webp')",
+        "home-mobile":
+          "url('../assets/cessna-pilot-center-el-paso-tx-mobile.webp')",
+        "two-cessna":
+          "url('../assets/two-cessna-red-arrow-KDNA-santa-teresa.webp')",
+        "training-courses": "url('../assets/training-courses-banner.webp')",
+        "our-story": "url('../assets/our-story/banner.webp')",
+        "our-team": "url('../assets/our-team/banner.webp')",
       },
       height: (theme) => ({
         "screen-1/2": "50vh",

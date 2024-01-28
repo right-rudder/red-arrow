@@ -82,10 +82,10 @@ export const about = {
   ],
 };
 
-import TomasPeraltaImage from "./img/our-team/tomas-peralta.webp";
-import ElsaPeraltaImage from "./img/our-team/elsa-peralta.webp";
-import JazmineAnayaImage from "./img/our-team/jazmine-anaya.webp";
-import DanielleNelsonImage from "./img/our-team/danielle-nelson.webp";
+import TomasPeraltaImage from "./assets/our-team/tomas-peralta.webp";
+import ElsaPeraltaImage from "./assets/our-team/elsa-peralta.webp";
+import JazmineAnayaImage from "./assets/our-team/jazmine-anaya.webp";
+import DanielleNelsonImage from "./assets/our-team/danielle-nelson.webp";
 
 export const teamMembers = [
   {
