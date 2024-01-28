@@ -1,4 +1,4 @@
-import { flightPrograms, resources, about } from "../consts.ts";
+import { flightPrograms, resources, about } from "../consts.astro";
 import MobileNavLink from "./MobileNavLink.jsx";
 import { useState } from "react";
 
