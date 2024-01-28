@@ -4,6 +4,7 @@ import ContactUs from "../../components/ContactUs.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import OurStoryImage from "../../assets/our-story/our-story.webp";
 import Location from "../../components/Location.astro";
+import { Image } from "astro:assets";
 ---
 
 <BaseLayout>
@@ -24,8 +25,8 @@ import Location from "../../components/Location.astro";
     class="flex flex-col-reverse items-center lg:flex-row-reverse px-10 bg-gradient-to-br from-white to-gray-200"
   >
     <div class="lg:w-1/2 flex flex-col items-center py-10">
-      <img
-        src={OurStoryImage.src}
+      <Image
+        src={OurStoryImage}
         alt="The tail of an airplane at Red Arrow Flight Academy with its logo"
         class="h-[500px] aspect-square object-cover"
       />
