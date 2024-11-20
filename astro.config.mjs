@@ -6,8 +6,7 @@ import icon from "astro-icon";
 import react from "@astrojs/react";
 import alpinejs from "@astrojs/alpinejs";
 import partytown from "@astrojs/partytown";
-
-import netlify from "@astrojs/netlify";
+import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
@@ -56,5 +55,7 @@ export default defineConfig({
     "/copy-of-faa-testing-center": "/resources/faa-exam-center",
   },
   output: "server",
-  adapter: netlify(),
+  adapter: node({
+    mode: "standalone",
+  }),
 });
